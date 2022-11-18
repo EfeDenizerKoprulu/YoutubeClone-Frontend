@@ -1,0 +1,139 @@
+.sidebar-main {
+  background-color: var(--primary-color);
+  height: 41em;
+  transition: width 1s ease-in-out;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 5%;
+  padding-top: 10px;
+  float: left;
+  position: fixed;
+  top: 5em;
+  box-sizing: border-box;
+  z-index: 8;
+
+
+}
+.sidebar-main::-webkit-scrollbar {
+  width: 10px;
+}
+.sidebar-main::-webkit-scrollbar-track {
+  background-color: var(--secondary-light-color);
+}
+
+.sidebar-main::-webkit-scrollbar-thumb {
+  background-color: var(--main-secondary-light);
+  border: none;
+}
+
+.flat-sidebar-item {
+  width: 90%;
+  margin-bottom: 1em;
+  padding-left: 8px;
+}
+
+.flat-sidebar-item :hover {
+  background-color: var(--hover-text-color);
+  cursor: pointer;
+  border-radius: 2px solid var(--hover-text-color);
+  border-radius: 12px 0 0 12px;
+}
+
+.flat-sidebar-item span {
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  padding: 8px 0px 8px;
+}
+.link-sidebar-item-flat {
+  text-align: center;
+  display: block;
+  font-size: 10px;
+  padding-bottom: 8px;
+}
+
+.link-sidebar {
+  color: var(--text-main);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.sidebar-item {
+  padding: 5px;
+  padding-bottom: 15px;
+}
+
+#sidebar h3 {
+  font-size: 17px;
+  margin-left: 15px;
+  color: var(--text-main);
+  font-weight: normal;
+}
+.subs:hover,
+.sidebar-item:hover {
+  background-color: var(--hover-text-color);
+  cursor: pointer;
+  border-radius: 2px solid var(--hover-text-color);
+  border-radius: 22px;
+}
+
+.link-sidebar-item span {
+  margin-right: 1em;
+  font-size: 20px;
+}
+
+.link-sidebar-item {
+  font-size: 16px;
+  padding: 1em;
+  align-items: center;
+}
+
+.subs {
+  height: 40px;
+  width: 100%;
+  padding: 5px;
+}
+
+.subs img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.subs h3 {
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  bottom: 10px;
+}
+
+.sidebar-buttom-info {
+  padding: 0;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+.sidebar-buttom-info li {
+  list-style-type: none;
+  color: var(--text-light-main);
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer {
+  margin: 8%;
+  color: var(--main-secondary-light);
+  font-size: 12px;
+}
+
+.close-sidebar {
+  display: none;
+}
+.open-sidebar {
+  display: block;
+}
+.sidebarV2 {
+  width: 16%;
+}

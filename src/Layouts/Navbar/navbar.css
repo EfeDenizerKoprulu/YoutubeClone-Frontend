@@ -1,0 +1,126 @@
+.navbar {
+  background-color: var(--primary-color);
+  position: sticky;
+  padding: 1em;
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--secondary-light-color);
+  padding-top: 30px;
+  height: 5em;
+  z-index: 10;
+}
+
+.logo {
+  height: 20px;
+  display: inline;
+  float: left;
+  position: relative;
+  bottom: 5px;
+}
+.humburger {
+  border-radius: 50%;
+  width: 25px;
+  height: 20px;
+  justify-content: center;
+  float: left;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.humburger div {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.humburger:hover {
+  background-color: var(--secondary-light-color);
+}
+
+.humburger div span {
+  width: 17.5px;
+  height: 1px;
+  background-color: var(--text-main);
+}
+
+.humburger div span:nth-child(2) {
+  margin: 5px 0;
+}
+.search-main {
+  padding-left: 12em;
+  display: flex;
+  position: relative;
+  bottom: 20px;
+}
+.search-bar input {
+  width: 38em;
+  background-color: var(--primary-color);
+  color: var(--text-main);
+  outline: none;
+  border: 1px solid var(--secondary-light-color);
+  border-radius: 40px 0 0 40px;
+  height: 40px;
+  padding-left: 4em;
+}
+.search-bar span {
+  color: var(--text-main);
+  position: absolute;
+  right: 90px;
+  top: 18px;
+  cursor: pointer;
+}
+.search-bar {
+  position: relative;
+  padding-left:70PX
+}
+.icon-search {
+  color: var(--text-theme);
+  position: relative;
+  left: 90px;
+}
+
+.search-bar button {
+  position: relative;
+  background-color: var(--secondary-light-color);
+  color: var(--text-main);
+  border-radius: 0 40px 40px 0;
+  width: 80px;
+  font-size: 16px;
+  padding: 10px;
+  height: 48px;
+  top: 2px;
+}
+.mic {
+  background-color: var(--secondary-light-color);
+  filter: brightness(80%);
+  color: var(--text-main);
+  padding: 1em;
+  border-radius: 50%;
+  height: 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.profiletab {
+  display: flex;
+  float: right;
+  position: relative;
+  top: -60px;
+}
+.profiletab span {
+  color: var(--text-main);
+  font-size: 22px;
+  margin-right: 0.8em;
+  cursor: pointer;
+}
+.profile {
+  border-radius: 50%;
+  background-color: var(--secondary-light-color);
+  width: 35px;
+  height: 35px;
+}
+.profile img {
+  border-radius: 50%;
+  width: 100%;
+}

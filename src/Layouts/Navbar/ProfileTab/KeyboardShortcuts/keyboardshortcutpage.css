@@ -1,0 +1,84 @@
+.keyboardShortcut-main {
+  position: absolute;
+  z-index: 11;
+  background-color: var(--primary-color);
+  color: var(--text-theme);
+  width: 95%;
+  padding: 1em;
+  top: 85px;
+  left: 40px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.keyboardShortcut-title {
+  font-size: 25px;
+  margin: 10px;
+  margin-bottom: 1.5em;
+  position: sticky;
+}
+
+.keyboardShortcut {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  height: 500px;
+  width: auto;
+  margin-left: 10px;
+}
+.keyboardShortcut::-webkit-scrollbar-track {
+  background-color: white;
+}
+.keyboardShortcut::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+.keyboardShortcut ::-webkit-search-cancel-button {
+  visibility: visible;
+}
+
+.keyboardShortcut-play-section {
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  margin-right: 65px;
+  width: 45%;
+}
+.keyboardShortcut-play-section h4 {
+  margin-bottom: 1em;
+  margin-top: 0px;
+}
+
+.keyboardShortcut-key {
+  display: inline;
+  float: right;
+  color: white;
+}
+.keyboardShortcut-key span {
+  float: right;
+}
+
+.keyboardShortcut-main-section {
+  bottom: 260px;
+}
+.buttom-bar {
+  height: 3em;
+}
+.buttom-bar h4 {
+  color: #3c7dd1;
+  float: right;
+  margin: 1em;
+  position: relative;
+}
+.buttom-bar h4:hover {
+  cursor: pointer;
+  color: lightblue;
+  font-size: 18 px;
+}
+.keyboardShortcut-subtitle-section {
+  margin-right: 65px;
+  margin-top: 3em;
+}
+
+.genereal-settings {
+  display: inline-block;
+  width: 45%;
+  position: relative;
+}

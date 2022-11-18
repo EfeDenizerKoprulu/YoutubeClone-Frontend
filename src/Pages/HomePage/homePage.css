@@ -1,0 +1,17 @@
+.home {
+  height: 48em;
+  width: 100%;
+  position: relative;
+  color: white;
+  background-color: var(--primary-color);
+  box-sizing: border-box;
+  overflow-y: scroll;
+  padding-top: 5em;
+  padding-left: 8em;
+}
+.padding{
+  padding-left: 16.5em;
+}
+.box-size{
+  max-width: 290px !important;
+}
